@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "cd backend/models && nodemon server.js --exec babel-node --presets es2015,stage-0",
+    "server": "cd backend && nodemon server.js --exec babel-node --presets es2015,stage-0",
     "client": "cd client && npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
