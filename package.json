@@ -1,7 +1,7 @@
 {
-  "name": "merncomment",
+  "name": "MERNchat",
   "version": "1.0.0",
-  "description": "Comment box",
+  "description": "CRUD Chat post",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
